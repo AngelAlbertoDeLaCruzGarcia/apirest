@@ -1,0 +1,20 @@
+Registrar (POST)
+http://localhost:90/NutriNET/Cliente
+{
+    "nombre": "Angel",
+    "apellidos": "Garcia",
+    "correoE": "angel_barsa919@gmail.com",
+    "contrasena": "123asdasdasdsasd",
+    "nombreUsuario": "asdassssssd"
+}
+
+Actualizar (PUT)
+http://localhost:90/NutriNET/Cliente/1
+{
+    "edad": 18,
+    "estatura": 1.60,
+    "peso": 60,
+    "geb": 1000
+}
+Listar Clientes (GET)
+http://localhost:90/NutriNET/Cliente?id=1
